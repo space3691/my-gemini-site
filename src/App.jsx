@@ -9,14 +9,14 @@ export default function App() {
            <CheckCircle className="text-green-400" size={48} />
         </div>
         <h1 className="text-4xl font-black mb-4 bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent italic">
-          Account Synced
+          Launch Successful
         </h1>
         <p className="text-slate-400 mb-8 leading-relaxed font-medium">
-          The deployment from <strong>space3691</strong> is successful. Your site is now pulling from the correct repository.
+          The build is fixed. No duplicate exports, no account mismatch.
         </p>
         <div className="flex items-center justify-center space-x-2 text-pink-500 font-bold">
           <Heart size={16} fill="currentColor" />
-          <span>Live on Personal Account</span>
+          <span>Production Ready</span>
         </div>
       </div>
     </div>
